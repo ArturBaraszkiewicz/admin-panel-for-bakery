@@ -1,0 +1,11 @@
+@mixin colorClass($color, $name) {
+    .bg-#{$name} {
+        background-color: $color;
+    }
+    .col-#{$name} {
+        color: $color;
+    }
+    .border-#{$name} {
+        border-color: $color;
+    }
+}

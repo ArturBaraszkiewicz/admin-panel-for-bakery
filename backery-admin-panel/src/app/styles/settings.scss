@@ -1,0 +1,9 @@
+// Colors used in project
+$project-orange: #FFA786;
+$project-grey: #C4C4C4;
+$project-light-grey: #EBEBEB;
+$project-very-light-grey: #C4C4C4;
+
+// We automatically create a set of classes from selected colors and we give them simple names
+@include colorClass($project-orange, '1');
+@include colorClass($project-grey, '2');
